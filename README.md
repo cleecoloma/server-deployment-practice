@@ -1,12 +1,12 @@
 # Server Deployment Practice - Sum
 
-This does math functions but in Express!
+> This does math sum function but in Express!
 
 ## Installation
 
-* `npm install`
+> Start with: `npm install`
 
-Set your PORT environment with an .env file
+> Set your PORT environment with an .env file
 
 ```text
 PORT=3001
@@ -20,10 +20,13 @@ Send a request:
 method: GET
 route: /sum
 params:
-  value1{Integer}
-  value2{Integer}
+  value1={Integer}
+  value2={Integer}
 ```
 
-## Contributors
+> This is deployed on Render at:
+* [Dev Branch](https://server-deployment-dev-5e4h.onrender.com)
+* [Main/Production Branch](https://server-deployment-prod-q0ri.onrender.com)
 
-Jacob Knaack
+## Contributors
+> Chester Lee Coloma
